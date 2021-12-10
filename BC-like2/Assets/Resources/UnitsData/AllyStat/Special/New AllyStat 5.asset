@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89eb41517e9c1f848893564c6236be48, type: 3}
+  m_Name: New AllyStat 5
+  m_EditorClassIdentifier: 
+  ID: 0
+  unitName: er
+  avatar: {fileID: 21300000, guid: 02f3d143e8cd9f14bb3a7dd3e2feabbc, type: 3}
+  colliderSize: {x: 1.5, y: 4.5}
+  colliderOffset: {x: 0, y: 0}
+  unitType: 0
+  enemyType: 1
+  animator: {fileID: 22100000, guid: 145c008b278d1e348b900f5094553ad0, type: 2}
+  description: 
+  BehaviourNames:
+  - LeftMove
+  - HealthSystem
+  - SingleAttack
+  - AllyDestroy
+  - NormalDetect
+  attackAnimationLength: 1
+  maxHealth:
+    baseValue: 100
+    level: 0
+  attackRating:
+    baseValue: 50
+    level: 0
+  attackRange:
+    baseValue: 3
+    level: 0
+  movementSpeed:
+    baseValue: 3
+    level: 0
+  timeBtwAttacks:
+    baseValue: 1
+    level: 0
+  cost:
+    baseValue: 30
+    level: 0
+  rechargeTime:
+    baseValue: 3
+    level: 0
+  level: 0
+  rarity: 0
+  unlocked: 1
+  equipped: 0
+  slotNumber: 0
